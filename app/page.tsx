@@ -8,20 +8,27 @@ import Section5 from "./Router/PublicLayout/HomePage/Section5";
 import Section6 from "./Router/PublicLayout/HomePage/Section6";
 import Section7 from "./Router/PublicLayout/HomePage/Section7";
 import Section8 from "./Router/PublicLayout/HomePage/Section8";
-
+import Section9 from "./Router/PublicLayout/HomePage/Section9";
+import Section_Panjang from "./Router/PublicLayout/HomePage/Component_section";
+import Section_Pjg from "./Router/PublicLayout/HomePage/Section_Panjang";
+import Unlock from "./Router/PublicLayout/HomePage/Unlock_realtime";
+import WhyVOice from "./Router/PublicLayout/HomePage/Why";
+import VoiceWork from "./Router/PublicLayout/HomePage/VoiceModWork";
+import Footer from "./shared/Footer";
 export default function Home() {
-  return(
-<div className="w-full min-h-1 bg-black">
+  return( 
+<div className="w-full min-h-[5] bg-black py-12">
   <Header/>
   <Section1/>
   <Section2/>
   <Section3/>
   <Section4/>
-  <Section5/>
-  <Section6/>
-  <Section7/>
-  <Section8/>
-</div>
+  <Section_Pjg/>
+  <Unlock/>
+  <WhyVOice/>
+  <VoiceWork/>
+  <Footer/>
+  </div>
   );
   
 }
