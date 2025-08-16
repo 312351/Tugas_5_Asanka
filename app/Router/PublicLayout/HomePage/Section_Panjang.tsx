@@ -2,7 +2,8 @@ import Section_Panjang from "./Component_section";
 
 export default function Section_Pjg(){
     return(
-        <div>
+        
+        <div className="w-full min-h-[25vh]">
          <Section_Panjang 
         flex="row"
         Label="Change your voice. Become anyone." 

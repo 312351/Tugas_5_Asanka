@@ -1,61 +1,104 @@
-export default function Section3(){
-    return(
-                    <section className="w-full min-h-[100vh] p-16 flex flex-col ">
-                <div className="w-full flex flex-col gap-y-20">
-                <div className="w-full h-10 flex flex-col  justify-center items-center">
-                    <h1 className="text-[8vh] font-bold text-[#66EBFF]">Works whever you hang out online</h1>
-                    <p>Not only in voice apps like Discord, but also in-game voice chats.</p>
-                </div>
-                <div className="w-full relative"> 
-                    <div className="w-full min-h-[50vh] flex flex-col justify-start items-center z-0">
-                    <img src="LogomicVoicemod.png" alt="" className="w-[15vh]"/>
-                    <img src="connect-vm-together 1.png" alt=""className="w-[65vw]"/>
-                    </div>
-                    <div className=" absolute w-full h-full z-10 inset-0  flex justify-center items-end top-[5vh]">
-                        <div className="w-[70vw] min-h-[25vh] flex justify-center overflow-y-auto">
-                            <div className="grid grid-cols-12 w-full h-full gap-x-5 gap-y-3">
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                                <div className="w-[5vw] h-[5vw] bg-white"></div>
-                             
-                            </div>
+export default function Section3() {
+  const images = [
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/discord.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/fortnite.png",
+      "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-131.png", 
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-131.png", // OBS
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-124.png", // Steam
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40110.png", // Valorant
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40122.png", // Secret Lab
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-127.png", // Minecraft
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40007.png", // GTA
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40125.png", // League of Legends
+    "https://www.voicemod.net/new/wp-content/uploads/2024/05/world-of-warcraft.jpg",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-110.png", // COD
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40016.png", // Opera GX
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-126.png", // Lethal Company
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40119.png", // CS:GO
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40118.png", // Phasmophobia
+    "https://www.voicemod.net/new/wp-content/uploads/2024/05/2skype-logo.png", // Skype
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Left-4-Death-1-icon-e1719321486480.png", // Left4Dead
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40121.png", // Rocket League
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40120.png", // Riot
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40117.png", // Sea of Thieves
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40116.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/05/roblox-logo.jpeg",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40114.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40113.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40111.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40019.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40014.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40013.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40008.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-139.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-138.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-137.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-136.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-135.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/image-127-1.png",
+    "https://www.voicemod.net/new/wp-content/uploads/2024/03/Rectangle-40124.png"
+  ];
+
+  // Index gambar yang ingin disembunyikan
+  const hiddenIndexes = [2]; // OBS, bisa ditambahkan index lain
+
+  return (
+    <section className="w-full min-h-[100vh] px-6 flex flex-col">
+      <div className="w-full flex flex-col">
+
+        {/* Judul */}
+        <div className="w-full flex flex-col justify-center items-center text-center">
+          <h1 className="text-[4vh] lg:text-[8vh] font-bold text-[#66EBFF]">
+            Works wherever you hang out online
+          </h1>
+          <p className="text-[2vh] text-lg text-gray-300">
+            Not only in voice apps like Discord, but also in-game voice chats.
+          </p>
+        </div>
+
+        <div className="w-full flex flex-col items-center relative">
+          <img src="LogomicVoicemod.png" alt="Logo" className="w-[15vh]" />
+          <img
+            src="connect-vm-together 1.png"
+            alt="Connection"
+            className="w-[70vw]"
+          />
+
+          <div className="mt-[9vw] z-10 flex justify-center w-full items-center">
+            <div className="w-full px-4 lg:px-16">
+              <div
+                className="h-[48vh] grid gap-3 justify-center overflow-hidden"
+                style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))' }}
+              >
+                <div className="w-full">
+                  <div
+                    className="grid gap-3 justify-center"
+                    style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))' }}
+                  >
+                    {images.map((src, i) => {
+                      if (hiddenIndexes.includes(i)) return null; // sembunyikan index tertentu
+                      return (
+                        <div
+                          key={i}
+                          className="w-full aspect-square rounded-md shadow-md flex items-center justify-center"
+                        >
+                          <img
+                            src={src}
+                            alt={`App ${i + 1}`}
+                            className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 object-contain rounded-2xl"
+                          />
                         </div>
-                    </div>
-                    </div>
-                    </div>
-            </section>
-    );
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
 }

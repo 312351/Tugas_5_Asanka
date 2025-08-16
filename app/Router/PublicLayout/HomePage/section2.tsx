@@ -1,22 +1,34 @@
-export default function Section2(){
-    return(
-                    <section className="w-full min-h-[50vh] py-5 px-[25vh]">
-                <div className="w-full h-full bg-[#811AFF] relative">
-                    <div className="w-full h-full flex justify-end items-end">
-                    <img src="LogoAlatalat.png" alt="" className=" z-0"/>
-                    </div>
-                    <div className="w-full h-full absolute z-10 inset-0 p-5">
-                        
-                        <div className=" w-[50%]">
-                <p className="text-[5vh] font-bold">
-                <span className="text-[#66EBFF]">Create your own voice with</span>{" "}
-                <span className="text-white">Voicelab 2.0!</span>
-                </p>                    
-                <p>Boost the way you sound with your squad wherever you hang out, using the leading real-time AI voice changer & soundboard</p>
-                <button className="py-4 px-9 rounded-md bg-white text-[2vh] font-bold text-black">    Explore Voicelab 2.0</button>
-                </div>
-                </div>
-                </div>
-            </section>
-    );
+export default function Section2() {
+  return (
+    <section className="w-full min-h-[25vh] py-[5vh] px-4 md:px-10 ">
+      <div className="w-full min-h-[25vh] bg-[#811AFF] relative overflow-hidden rounded-md flex flex-col md:flex-row-reverse items-center">
+        {/* Gambar Background Kanan */}
+        <div className="w-full md:w-1/2 h-60 md:h-full flex justify-center items-end md:justify-end md:items-end">
+          <img
+            src="LogoAlatalat.png"
+            alt="Logo Alat"
+            className="object-contain max-h-full max-w-full z-0"
+          />
+        </div>
+
+        {/* Konten Teks */}
+        <div className=" static md:absolute inset-0 z-10 w-[70%] min-h-[5vh] py-[5vh] flex items-center">
+          <div className="w-full flex flex-col justify-center items-start gap-6 max-w-3xl">
+            <h1 className="text-white font-bold text-3xl md:text-5xl xl:text-[8vh] leading-tight">
+              <span className="text-[#66EBFF]">Unlock real-time voice changing on </span>
+              <span className="text-white">console</span>
+            </h1>
+
+            <p className="text-white text-sm md:text-base w-full md:w-[80%]">
+              Pair Voicemod Key with your smartphone, and unlock voice changers and soundboards on your gaming console!
+            </p>
+
+            <button className="py-3 px-6 md:py-4 md:px-9 rounded-md bg-white text-sm md:text-base font-bold text-black shadow hover:scale-105 transition">
+              Explore Voicelab 2.0
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

@@ -17,17 +17,16 @@ import VoiceWork from "./Router/PublicLayout/HomePage/VoiceModWork";
 import Footer from "./shared/Footer";
 export default function Home() {
   return( 
-<div className="w-full min-h-[5] bg-black py-12">
-  <Header/>
-  <Section1/>
-  <Section2/>
-  <Section3/>
-  <Section4/>
-  <Section_Pjg/>
-  <Unlock/>
-  <WhyVOice/>
-  <VoiceWork/>
-  <Footer/>
+<div className="w-full h-full pb-12 bg-black">
+    <Header/>
+    <Section1/>
+    <Section2/>
+    <Section3/>
+    <Section_Pjg/>
+    <Unlock/>
+    <WhyVOice/>
+    <VoiceWork/>
+    <Footer/>
   </div>
   );
   

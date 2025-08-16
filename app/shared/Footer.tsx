@@ -24,7 +24,7 @@ export default function Footer() {
                                 <a href=""><img src="/Logo.png" alt="" className="w-[30vh] md:w-[40vh]" /></a>
                             </div>
 
-                            <div className="text-[2.3vh] opacity-75 flex justify-center md:justify-start">
+                            <div className="text-[8px] md:text-[2.3vh] opacity-75 flex justify-center md:justify-start">
                                 <div className="flex gap-12">
                                     <ul className="text-[#DEDEDE] flex flex-col gap-y-2 text-start">
                                         <li className="underline">Base</li>
@@ -41,8 +41,10 @@ export default function Footer() {
                         </div>
 
                         <div className="flex flex-col justify-center items-center text-center gap-4">
-                            <h1 className="text-[3vh] md:text-[4vh] lg:text-[5vh] font-bold whitespace-nowrap">Supercharge Your Voice</h1>
-                            <Button1 Label="Download For Free" x="6" />
+                            <h1 className="text md:text-[2vh] md:text-[4vh] lg:text-[4vh] font-bold whitespace-nowrap">Supercharge Your Voice</h1>
+<button className="block py-3 px-6 lg:px-[3vh] xl:px-[5vh] bg-gradient-5 rounded-2xl text-sm md:text-base lg:text-lg font-bold text-black">
+  Download For Free
+</button>
                         </div>
                     </div>
 
