@@ -22,6 +22,7 @@ export default function Home() {
     <Section1/>
     <Section2/>
     <Section3/>
+    <Section4/>
     <Section_Pjg/>
     <Unlock/>
     <WhyVOice/>

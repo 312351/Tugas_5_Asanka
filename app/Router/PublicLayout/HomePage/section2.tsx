@@ -1,4 +1,4 @@
-export default function Section2() {
+export default function unlock() {
   return (
     <section className="w-full min-h-[25vh] py-[5vh] px-4 md:px-10 ">
       <div className="w-full min-h-[25vh] bg-[#811AFF] relative overflow-hidden rounded-md flex flex-col md:flex-row-reverse items-center">
@@ -11,16 +11,15 @@ export default function Section2() {
           />
         </div>
 
-        {/* Konten Teks */}
         <div className=" static md:absolute inset-0 z-10 w-[70%] min-h-[5vh] py-[5vh] flex items-center">
-          <div className="w-full flex flex-col justify-center items-start gap-6 max-w-3xl">
-            <h1 className="text-white font-bold text-3xl md:text-5xl xl:text-[8vh] leading-tight">
-              <span className="text-[#66EBFF]">Unlock real-time voice changing on </span>
-              <span className="text-white">console</span>
+          <div className=" md:ml-[15%] w-full flex flex-col justify-center items-center md:items-start gap-6 max-w-3xl">
+            <h1 className="text-white font-bold text-3xl md:text-5xl xl:text-[8vh] leading-tight text-center md:text-start">
+              <span className="text-[#66EBFF]">Create your own voice with </span>
+              <span className="text-white">Voicelab 2.0!</span>
             </h1>
 
-            <p className="text-white text-sm md:text-base w-full md:w-[80%]">
-              Pair Voicemod Key with your smartphone, and unlock voice changers and soundboards on your gaming console!
+            <p className="text-center md:text-start text-white text-sm md:text-base w-full md:w-[80%]">
+              Build your own voice changers with Voicelab — a fresh set of powerful, easy-to-use effects. From iconic AI characters to dramatic pitch, ambience, and devices, it’s all drag-and-drop simple — and works wherever you use your voice.
             </p>
 
             <button className="py-3 px-6 md:py-4 md:px-9 rounded-md bg-white text-sm md:text-base font-bold text-black shadow hover:scale-105 transition">

@@ -27,8 +27,8 @@ export default function Section_Panjang({
     <section className="w-full min-h-[35vh] px-12 py-[25px]">
       <div className={`w-full min-h-[35vh] flex ${baseFlexClass} ${responsiveFlexClass} justify-center items-center`}>
         <div className="w-full min-h-[5vh] lg:w-[40vw] h-[25vh] flex flex-col justify-center items-center gap-y-5">
-          <h1 className="text-[#66EBFF] text-[3vh] md:text-[6vh] lg:text-[8vh] font-bold text-center lg:text-start">{Label}</h1>
-          <p className="text-center lg:text-start">{Label2}</p>
+          <h1 className="text-[#66EBFF] text-[3vh] md:text-[6vh] lg:text-[4vh] xl:text-[6vh] font-bold text-center lg:text-start">{Label}</h1>
+          <p className="lg:text-[2vh] text-center lg:text-start">{Label2}</p>
           <a href={`${Direct}`} className="w-full text-center lg:text-start">
             <p className=" Button border-b-2 border-[#66EBFF] text-[#66EBFF] hover:text-black inline-block">{Button}</p>
             

@@ -24,14 +24,33 @@ export default function Section1(){
                     <div className="w-full h-full absolute z-10 inset-0 flex flex-col justify-end items-center gap-y-5 pb-5">
                         <div className="flex flex-col"></div>
                         <h1 className="font-bold text-[3vh] text-[#66EBFF]">Our Partners</h1>
-                        <div className=" flex xl:w-[75vh] lg:w-[100vh] gap-x-5">
-                            <a href=""><img src="https://www.voicemod.net/new/wp-content/uploads/2024/03/corsair.png" alt="" className=""/></a>
-                            <a href=""><img src="https://www.voicemod.net/new/wp-content/uploads/2024/03/msi.png" alt="" /></a>
-                            <a href=""><img src="https://www.voicemod.net/new/wp-content/uploads/2024/07/elgato.png" alt="" /></a>
-                            <a href=""><img src="https://www.voicemod.net/new/wp-content/uploads/2024/07/nvidia.png" alt="" /></a>
-                            <a href=""><img src="https://www.voicemod.net/new/wp-content/uploads/2025/03/omengaminghub.png" alt="" /></a>
-                            <a href=""><img src="https://www.voicemod.net/new/wp-content/uploads/2025/03/omengaminghub.png" alt="" /></a>
-                        </div>
+<div className="flex xl:w-[75vh] lg:w-full  gap-x-5 justify-center items-center">
+  <a href="">
+    <img src="https://www.voicemod.net/new/wp-content/uploads/2024/03/corsair.png" 
+         className="w-20 h-20 object-contain" alt="" />
+  </a>
+  <a href="">
+    <img src="https://www.voicemod.net/new/wp-content/uploads/2024/03/msi.png" 
+         className="w-20 h-20 object-contain" alt="" />
+  </a>
+  <a href="">
+    <img src="https://www.voicemod.net/new/wp-content/uploads/2024/07/elgato.png" 
+         className="w-20 h-20 object-contain" alt="" />
+  </a>
+  <a href="">
+    <img src="https://www.voicemod.net/new/wp-content/uploads/2024/07/nvidia.png" 
+         className="w-20 h-20 object-contain" alt="" />
+  </a>
+  <a href="">
+    <img src="https://www.voicemod.net/new/wp-content/uploads/2025/03/omengaminghub.png" 
+         className="w-20 h-20 object-contain" alt="" />
+  </a>
+  <a href="">
+    <img src="https://www.voicemod.net/new/wp-content/uploads/2025/04/amd.png" 
+         className="w-20 h-20 object-contain" alt="" />
+  </a>
+</div>
+
                     </div>
             </section>
             

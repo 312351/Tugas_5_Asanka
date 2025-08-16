@@ -23,7 +23,7 @@ function YouTubeCard({ url }: { url: string }) {
               onClick={() => setIsPlaying(true)}
             >
               <img
-                src="/YoutubeShortsIcon-removebg-preview.png"
+                src="./images__14_-removebg-preview.png"
                 alt="Play"
                 className="w-16 h-16"
               />

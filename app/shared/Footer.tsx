@@ -18,7 +18,7 @@ export default function Footer() {
 
             <div className="w-full bg-black px-6 md:px-12 py-12">
                 <div className="flex flex-col gap-12">
-                    <div className="flex flex-col md:flex-row justify-between gap-10">
+                    <div className="flex flex-col lg:flex-row justify-between gap-10">
                         <div className="flex  flex-row items-center justify-center md:flex-row gap-12">
                             <div className="flex justify-center md:justify-start">
                                 <a href=""><img src="/Logo.png" alt="" className="w-[30vh] md:w-[40vh]" /></a>
@@ -41,10 +41,10 @@ export default function Footer() {
                         </div>
 
                         <div className="flex flex-col justify-center items-center text-center gap-4">
-                            <h1 className="text md:text-[2vh] md:text-[4vh] lg:text-[4vh] font-bold whitespace-nowrap">Supercharge Your Voice</h1>
-<button className="block py-3 px-6 lg:px-[3vh] xl:px-[5vh] bg-gradient-5 rounded-2xl text-sm md:text-base lg:text-lg font-bold text-black">
-  Download For Free
-</button>
+                            <h1 className="text md:text-[1vh]  lg:text-[2vh] font-bold whitespace-nowrap">Supercharge Your Voice</h1>
+                        <button className="block py-3 px-6 lg:px-[3vh] xl:px-[5vh] bg-gradient-5 rounded-2xl text-sm md:text-base lg:text-lg font-bold text-black">
+                            Download For Free
+                        </button>
                         </div>
                     </div>
 

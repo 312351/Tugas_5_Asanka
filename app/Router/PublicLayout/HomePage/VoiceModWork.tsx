@@ -11,7 +11,7 @@ export default function VoiceWork() {
         </div>
 
         {/* Steps */}
-        <div className="w-full min-h-[25vh] px-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="w-full min-h-[25vh] px-12 grid grid-cols-1 lg:grid-cols-3 gap-x-8">
           {/* Step 1 */}
           <div className="min-h-[25vh] px-4 flex flex-col md:flex-row  lg:flex-col items-center md:justify-center lg:justify-start text-center">
             <div className="w-[200px] h-[100px] md:h-[200px] flex justify-center items-center">
@@ -22,7 +22,7 @@ export default function VoiceWork() {
               />
             </div>
             <div className="w-[50%] lg:w-full">
-              <h1 className="text-[2vh] md:text-[4vh] font-bold md:text-start lg:text-center whitespace-nowrap">1. Supercharge your mic</h1>
+              <h1 className="text-[2vh] md:text-[4vh] font-bold md:text-start lg:text-center ">1. Supercharge your mic</h1>
               <p className=" text-[1.5vh] md:text-[3vh] md:text-start lg:text-center">
                 Download. We install a ‘virtual microphone’—this supercharges your sound!
               </p>
